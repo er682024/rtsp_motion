@@ -1,0 +1,1 @@
+{"FUSO_ORARIO": "Europe/Rome", "IP_CAM": "192.168.1.135", "IP_PLUG": "192.168.1.169", "RTSP_URL": "rtsp://username:password@192.168.1.135:554/stream1", "URL_ON": "http://192.168.1.169/relay/0?turn=on", "URL_OFF": "http://192.168.1.169/relay/0?turn=off", "SOGLIA_DIFF": 1114, "SOGLIA_PIXEL": 150, "SOGLIA_TEMPO": 300, "DALLE_ORE": 7, "ALLE_ORE": 21}

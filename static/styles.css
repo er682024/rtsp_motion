@@ -1,0 +1,145 @@
+/* styles.css */
+
+/* Definisce uno stile di base per il corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 20px;
+}
+
+/* Intestazione */
+header {
+    background: #333;
+    color: #fff;
+    padding: 2px 20px;
+    text-align: center;
+}
+
+/* Contenitore principale */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Stili per i bottoni */
+button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Stile per i bottoni di avviso */
+button.alert {
+    background-color: #dc3545;
+}
+
+/* Tabelle */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Link */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* styles.css */
+
+/* Espandi tutti i campi input e textarea alla larghezza del contenitore */
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    box-sizing: border-box; /* Include padding e bordi nella larghezza totale */
+    padding: 10px; /* Spazio interno */
+    margin-bottom: 10px; /* Spazio inferiore */
+    border: 1px solid #ccc; /* Bordo sottile */
+    border-radius: 5px; /* Angoli arrotondati */
+    font-size: 16px; /* Dimensione del testo */
+}
+
+/* Stile per il contenitore */
+.container {
+    padding: 20px;
+}
+
+/* Stile per i label */
+label {
+    font-weight: bold; /* Grassetto per il testo del label */
+    margin-top: 10px; /* Spazio superiore per separare dai campi precedenti */
+    display: block; /* Mostra il label su una nuova linea */
+}
+
+/* Stile per il bottone di submit */
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Stile per i bottoni di test */
+button[type="button"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Optional: Media query per una visualizzazione migliore sui dispositivi mobili */
+@media (max-width: 600px) {
+    input[type="submit"],
+    button[type="button"] {
+        width: 100%; /* Bottoni a larghezza intera su schermi piccoli */
+        margin-top: 10px;
+    }
+}
