@@ -395,7 +395,10 @@ def main():
                         )
                     )
     while True:
-        time.sleep(1)
+        if presente:
+            time.sleep(soglia_tempo)
+        else:
+            time.sleep(1)
         if ping_ko(ip_cam):
             debug('KO IP_CAM:', ip_cam)
             continue
