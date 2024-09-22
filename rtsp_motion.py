@@ -382,7 +382,6 @@ def main():
     # debug(f'URL_ON  : {url_on}')
     # debug(f'URL_OFF : {url_off}')
     frame_prec = None
-    presente = False
     tempo_passato = soglia_tempo + 1
     presente = True
     ultimo_movimento = datetime.datetime(
@@ -395,7 +394,7 @@ def main():
                         )
                     )
     while True:
-        if presente:
+        if presente and frame_prec is not None:
             time.sleep(soglia_tempo)
         else:
             time.sleep(1)
